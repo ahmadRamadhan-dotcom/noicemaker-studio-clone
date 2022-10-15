@@ -5,6 +5,6 @@
 
 <template>
   <div id="App">
-    <h1>hello world</h1>
+    <h1 class="text-blue-400">hello world</h1>
   </div>
 </template>
