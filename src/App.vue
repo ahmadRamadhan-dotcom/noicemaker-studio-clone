@@ -1,10 +1,11 @@
 <script setup>
+import Header from "./components/Header.vue";
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 </script>
 
 <template>
-  <div id="App">
-    <h1 class="text-blue-400">hello world</h1>
-  </div>
+  <Header />
+  <router-view></router-view>
+  <Footer />
 </template>
