@@ -14,6 +14,13 @@ iframe {
   height: 524px;
 }
 
+@media (max-width: 640px) {
+  iframe {
+    width: 100%;
+    height: 300px;
+  }
+}
+
 @media (min-width: 640px) {
   iframe {
     width: 600px;

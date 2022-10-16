@@ -13,6 +13,7 @@
         />
       </router-link>
       <router-link
+        v-if="$route.path !== '/login'"
         to="/login"
         class="inline-flex tracking-[0.2em] items-center justify-center text-[0.75rem] sm:text-[0.75rem] sm:py-1 px-4 sm:px-4 xl:px-4 xl:py-1 xl:text-[0.75rem] uppercase xl:font-bold font-medium text-white whitespace-no-wrap rounded-md bg-black border border-gray-200 shadow-sm"
       >

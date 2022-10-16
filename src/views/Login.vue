@@ -1,5 +1,5 @@
 <template>
   <div>
-    <span class="text-white text-5xl">this is login page</span>
+    <span class="text-white text-5xl">{{ $route }}</span>
   </div>
 </template>
