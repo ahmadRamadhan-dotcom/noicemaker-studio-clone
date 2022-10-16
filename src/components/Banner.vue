@@ -1,7 +1,7 @@
 <template>
   <div class="w-full flex justify-center md:mt-14 lg:mt-10 xl:mt-14">
     <div
-      class="sm:w-[400px] md:w-[610px] lg:w-[830px] xl:w-[88%] sm:flex sm:flex-col-reverse md:flex-row md:justify-between sm:items-center xl:justify-between"
+      class="sm:w-10/12 md:w-[610px] lg:w-[830px] xl:w-[88%] sm:flex sm:flex-col-reverse md:flex-row md:justify-between sm:items-center xl:justify-between"
     >
       <div
         class="sm:w-[610px] md:w-[360px] lg:w-[400px] xl:w-[660px] sm:mt-3 xl:mt-6"
@@ -20,7 +20,7 @@
         </p>
         <a
           href="#_"
-          class="sm:mt-5 md:mt-12 xl:mt-16 inline-flex items-center justify-center md:tracking-[0.2em] xl:tracking-[0.2em] sm:w-full sm:py-3 md:w-[220px] xl:py-3.5 text-sm font-bold text-[#1e222c] uppercase bg-[#FAD810] rounded-sm shadow-sm"
+          class="sm:mt-5 md:mt-12 xl:mt-16 inline-flex items-center justify-center sm:tracking-[0.2em] sm:w-full sm:py-3 md:w-[220px] xl:py-3.5 text-sm font-bold text-[#1e222c] uppercase bg-[#FAD810] rounded-sm shadow-sm"
         >
           gabung noicemaker
         </a>
