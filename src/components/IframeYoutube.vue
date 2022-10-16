@@ -28,4 +28,11 @@ iframe {
     height: 550px;
   }
 }
+
+@media (min-width: 1280px) {
+  iframe {
+    width: 524px;
+    height: 524px;
+  }
+}
 </style>
