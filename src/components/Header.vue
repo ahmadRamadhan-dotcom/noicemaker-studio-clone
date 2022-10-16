@@ -1,5 +1,7 @@
 <template>
-  <div class="w-full sm:flex sm:justify-center bg-[#101010]">
+  <div
+    class="w-full sticky top-0 z-[30] sm:flex sm:justify-center bg-[#101010]"
+  >
     <div
       class="sm:w-[93%] md:w-4/5 lg:w-10/12 xl:w-[88%] sm:flex sm:justify-between sm:py-3 xl:py-3"
     >

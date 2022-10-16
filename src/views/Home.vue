@@ -1,7 +1,9 @@
 <template>
-  <div id="home"></div>
+  <div id="home">
+    <Banner />
+  </div>
 </template>
 
 <script setup>
-import Header from "../components/Header.vue";
+import Banner from "../components/Banner.vue";
 </script>
