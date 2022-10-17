@@ -60,8 +60,8 @@
           :alt="data.alt"
           :class="
             data.id === 1
-              ? 'right-10 top-52 sm:right-10 sm:top-20 lg:top-80 lg:w-32'
-              : 'left-1 top-72 sm:top-20   xl:bottom-40 xl:left-32 '
+              ? 'right-10 top-52 sm:right-10 sm:top-20 lg:top-80 lg:w-32 xl:top-52 xl:left-32'
+              : 'left-1 top-72 sm:top-20 xl:bottom-32 xl:top-72 xl:left-32 '
           "
           class="xl:w-24 absolute"
         />
