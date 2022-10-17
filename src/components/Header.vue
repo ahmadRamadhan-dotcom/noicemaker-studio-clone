@@ -3,13 +3,18 @@
     class="w-full sticky top-0 z-[30] flex justify-center sm:flex sm:justify-center bg-[#101010]"
   >
     <div
+      :class="{
+        'xl:grid xl:place-content-center xl:place-items-center':
+          $route.path === '/login',
+      }"
       class="w-11/12 sm:w-[93%] md:w-4/5 lg:w-10/12 xl:w-[88%] flex justify-between sm:flex sm:justify-between py-3 sm:py-3 xl:py-3"
     >
       <router-link to="/">
         <img
-          src="/noicemaker.svg"
+          :class="$route.path === '/login' ? 'xl:h-6' : 'xl:h-8'"
+          src="../assets/noicemaker.svg"
           alt="noice maker header logo"
-          class="h-8 sm:h-8 xl:h-8"
+          class="h-8 sm:h-8"
         />
       </router-link>
       <router-link

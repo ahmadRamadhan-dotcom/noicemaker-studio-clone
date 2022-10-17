@@ -27,7 +27,7 @@
       </div>
       <figure class="mt-5 sm:mt-4 xl:w-[45%]">
         <img
-          src="/noice-creator.svg"
+          src="../assets/noice-creator.svg"
           class="mx-auto sm:mx-0 sm:w-[250px] lg:w-[340px] xl:w-[480px]"
           alt="figure of noice creator in indonesia"
         />
@@ -38,7 +38,7 @@
 
 <style scoped>
 .title span {
-  background: url("/banner-border.svg") bottom center;
+  background: url("../assets/banner-border.svg") bottom center;
   background-repeat: no-repeat;
 }
 </style>
