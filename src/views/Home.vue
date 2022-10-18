@@ -8,7 +8,7 @@
       class="absolute z-[99] sm:left-32 sm:bottom-[370px] md:left-60 xl:left-40 xl:bottom-[250px]"
       alt=""
     />
-    <Faqs class="absolute xl:bottom-20" />
+    <Faqs class="absolute xl:top-[2800px]" />
   </div>
 </template>
 
