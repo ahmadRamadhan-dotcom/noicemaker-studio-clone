@@ -1,12 +1,12 @@
 <template>
-  <footer class="flex justify-center md:pb-14 xl:pb-14">
+  <footer class="flex justify-center pb-5 sm:pb-0 md:pb-14 xl:pb-14">
     <div
-      class="sm:w-[600px] md:w-[650px] lg:w-[850px] xl:w-[1200px] md:flex md:justify-between"
+      class="w-11/12 sm:w-[600px] md:w-[650px] lg:w-[850px] xl:w-[1200px] md:flex md:justify-between"
     >
       <div
         class="sm:flex sm:flex-col-reverse md:flex md:flex-row xl:flex md:gap-[90px] xl:gap-[100px]"
       >
-        <div class="sm:hidden md:block">
+        <div class="hidden sm:hidden md:block">
           <figure>
             <img
               src="../assets/noice-logo-full.svg"
@@ -39,16 +39,18 @@
           </div>
           <p class="md:mt-16 xl:mt-16">© Noice 2022</p>
         </div>
-        <ul class="text-base md:leading-[50px] xl:leading-[35px]">
+        <ul
+          class="text-base leading-[40px] md:leading-[50px] xl:leading-[35px]"
+        >
           <li class="font-bold">Aturan yang berlaku</li>
           <li>Ketentuan Konten</li>
           <li>Syarat & Ketentuan</li>
           <li>Kebijakan Privasi</li>
         </ul>
       </div>
-      <div class="sm:mt-3 xl:w-60">
+      <div class="mt-10 sm:mt-3 xl:w-60">
         <span class="font-bold">Ikuti Kami</span>
-        <div class="sm:flex xl:flex gap-4">
+        <div class="flex sm:flex xl:flex gap-4">
           <a
             v-for="(data, index) in noiceSocialMedia"
             :key="index"
@@ -59,14 +61,14 @@
           </a>
         </div>
       </div>
-      <div class="sm:mt-20 md:hidden">
+      <div class="mt-20 sm:mt-20 md:hidden">
         <figure>
           <img
             src="../assets/noice-logo-full.svg"
             alt="full logo of noice.id"
           />
         </figure>
-        <div class="sm:mt-7 flex gap-4">
+        <div class="mt-6 sm:mt-7 flex gap-4">
           <a
             href="https://play.google.com/store/apps/details?id=noice.app"
             target="_blank"
@@ -90,7 +92,7 @@
             />
           </a>
         </div>
-        <p class="sm:text-center sm:mt-16">© Noice 2022</p>
+        <p class="text-center sm:text-center mt-10 sm:mt-16">© Noice 2022</p>
       </div>
     </div>
   </footer>

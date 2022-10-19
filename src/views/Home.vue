@@ -1,7 +1,7 @@
 <template>
   <main
     id="home"
-    class="relative h-[4000px] sm:h-[3180px] md:h-[3970px] xl:h-[3740px]"
+    class="relative h-[3900px] sm:h-[3180px] md:h-[3970px] xl:h-[3740px]"
   >
     <Banner />
     <WhatIsNoiceMaker />
