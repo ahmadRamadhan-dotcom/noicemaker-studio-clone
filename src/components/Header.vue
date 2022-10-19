@@ -15,7 +15,7 @@
           :class="$route.path === '/login' ? ' xl:h-6' : 'xl:h-8'"
           src="../assets/noicemaker.svg"
           alt="noice maker header logo"
-          class="h-8 sm:h-8"
+          class="h-6 sm:h-8"
         />
       </router-link>
       <router-link
