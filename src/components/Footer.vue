@@ -1,5 +1,8 @@
 <template>
-  <footer class="flex justify-center pb-5 sm:pb-0 md:pb-14 xl:pb-14">
+  <footer
+    v-if="$route.path !== '/login'"
+    class="flex justify-center pb-5 sm:pb-0 md:pb-14 xl:pb-14"
+  >
     <div
       class="w-11/12 sm:w-[600px] md:w-[650px] lg:w-[850px] xl:w-[1200px] 2xl:w-[1300px] md:flex md:justify-between"
     >

@@ -1,17 +1,19 @@
 <template>
   <div
-    class="login grid place-content-center place-items-center sm:bg-[url('https://res.cloudinary.com/dk7urhntn/image/upload/v1666046828/bg-login_hqb3ix.webp')] sm:bg-[center_center] md:bg-[center_top] md:bg-[url('https://res.cloudinary.com/dk7urhntn/image/upload/v1666047437/bg-login-desktop_ocg4qm.webp')] md:mx-9 md:text-center sm:h-[120vh] md:h-[80vh] xl:h-[90vh] sm:bg-cover md:bg-contain bg-no-repeat"
+    class="login flex flex-col justify-end sm:justify-center items-center bg-[url('https://res.cloudinary.com/dk7urhntn/image/upload/v1666046828/bg-login_hqb3ix.webp')] sm:bg-[url('https://res.cloudinary.com/dk7urhntn/image/upload/v1666046828/bg-login_hqb3ix.webp')] bg-[center_center] sm:bg-[center_center] md:bg-[center_top] md:bg-[url('https://res.cloudinary.com/dk7urhntn/image/upload/v1666047437/bg-login-desktop_ocg4qm.webp')] md:mx-9 md:text-center h-[90vh] sm:h-[120vh] md:h-[80vh] xl:h-[90vh] bg-cover sm:bg-cover md:bg-contain bg-no-repeat"
   >
     <figure>
       <img
         src="../assets/noice-logo-white.svg"
         alt="a white color of noice logo"
+        class="xl:mt-10"
       />
     </figure>
-    <span class="sm:text-xl md:text-5xl break-words font-bold sm:mt-32 xl:mt-32"
+    <span
+      class="text-xl sm:text-xl md:text-5xl break-words font-bold mt-32 sm:mt-32 xl:mt-32"
       >Konten Audio Gratis dan Eksklusif</span
     >
-    <span class="sm:text-sm md:text-xl sm:mt-10 xl:mt-10"
+    <span class="text-sm sm:text-sm md:text-xl sm:mt-10 xl:mt-10"
       >Masuk menggunakan</span
     >
     <div class="flex sm:mt-4 xl:mt-10">
@@ -26,10 +28,10 @@
         <img :src="data.icon" :alt="data.alt" />
       </button>
     </div>
-    <span class="sm:text-[12px] md:text-xl md:mt-10 xl:mt-10"
+    <span class="text-[12px] sm:text-[12px] md:text-xl md:mt-10 xl:mt-10"
       >Dengan mendaftar berarti kamu setuju dengan
     </span>
-    <p class="sm:text-[12px] md:text-xl">
+    <p class="text-[12px] sm:text-[12px] md:text-xl">
       <span class="text-[#fad810]">Syarat & Ketentuan</span>yang berlaku
     </p>
   </div>
