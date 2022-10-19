@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full flex justify-center mt-12 sm:mt-10 xl:mt-8">
+  <div class="w-full flex justify-center mt-12 sm:mt-10 xl:mt-8 2xl:mt-10">
     <div class="grid relative text-center">
       <span class="sm:text-base md:text-xl">
         Kenapa Gabung Noicemaker Studio

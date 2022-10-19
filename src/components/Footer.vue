@@ -1,7 +1,7 @@
 <template>
   <footer class="flex justify-center pb-5 sm:pb-0 md:pb-14 xl:pb-14">
     <div
-      class="w-11/12 sm:w-[600px] md:w-[650px] lg:w-[850px] xl:w-[1200px] md:flex md:justify-between"
+      class="w-11/12 sm:w-[600px] md:w-[650px] lg:w-[850px] xl:w-[1200px] 2xl:w-[1300px] md:flex md:justify-between"
     >
       <div
         class="sm:flex sm:flex-col-reverse md:flex md:flex-row xl:flex md:gap-[90px] xl:gap-[100px]"
@@ -21,7 +21,7 @@
             >
               <img
                 src="../assets/google-play-icon.svg"
-                class="md:h-6 h-8"
+                class="2xl:h-10 md:h-6 h-8"
                 alt="google play icon"
               />
             </a>
@@ -32,7 +32,7 @@
             >
               <img
                 src="../assets/appstore-icon.svg"
-                class="md:h-6 h-8"
+                class="2xl:h-10 md:h-6 h-8"
                 alt="appstore icon"
               />
             </a>

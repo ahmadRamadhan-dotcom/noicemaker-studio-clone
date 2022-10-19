@@ -8,7 +8,7 @@
     <WhyJoinUse />
     <img
       src="../assets/ornament-slide.svg"
-      class="absolute z-[99] left-10 bottom-[1160px] sm:left-32 sm:bottom-[930px] md:bottom-[1100px] md:left-60 xl:left-40 xl:bottom-[1000px]"
+      class="absolute z-[99] left-10 bottom-[1160px] sm:left-32 sm:bottom-[930px] md:bottom-[1100px] md:left-60 xl:left-40 xl:bottom-[1000px] 2xl:left-96"
       alt=""
     />
     <Faqs

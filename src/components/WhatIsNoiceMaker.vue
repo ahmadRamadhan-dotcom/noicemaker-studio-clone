@@ -3,7 +3,7 @@
     class="w-full flex justify-center mt-12 sm:mt-10 md:mt-24 xl:mt-24 pb-12 sm:pb-5 md:pb-20 lg:pb-20 xl:pb-12 bg-[#1A1919]"
   >
     <div
-      class="w-full sm:w-[600px] lg:w-[870px] xl:w-[88%] lg:flex lg:justify-between lg:gap-10"
+      class="w-full sm:w-[600px] lg:w-[870px] xl:w-[88%] 2xl:w-[1300px] lg:flex lg:justify-between lg:gap-10"
     >
       <div class="sm:mt-20 xl:mt-[70px]">
         <figure v-if="!isClicked" class="relative">
