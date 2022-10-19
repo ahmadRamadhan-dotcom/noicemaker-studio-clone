@@ -1,5 +1,5 @@
 <template>
-  <div class="flex sm:w-[590px] md:w-[850px] xl:w-[850px]">
+  <div class="flex sm:w-[590px] md:w-[650px] lg:w-[850px] xl:w-[850px]">
     <div class="xl:p-[50px_0] xl:text-base xl:leading-[1.4em] w-full">
       <div class="accordion">
         <div class="arrcordion__wrapper">
@@ -20,7 +20,7 @@
                     : 'bg-[#454545]'
                 "
                 href="#_"
-                class="inline-flex items-center rounded-md justify-center sm:py-1 sm:px-2 xl:px-3.5 xl:py-[10px] text-base font-medium"
+                class="inline-flex items-center rounded-md justify-center sm:py-1 sm:px-2 md:py-2 lg:py-2 lg:px-3 xl:px-3.5 xl:py-[10px] text-base font-medium"
               >
                 0{{ item.id }}
               </button>

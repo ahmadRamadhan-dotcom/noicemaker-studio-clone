@@ -1,15 +1,19 @@
 <template>
-  <footer class="flex justify-center xl:pb-14">
-    <div class="sm:w-[600px] xl:w-[1200px] xl:flex xl:justify-between">
-      <div class="sm:flex sm:flex-col-reverse xl:flex xl:gap-[100px]">
-        <div class="sm:hidden">
+  <footer class="flex justify-center md:pb-14 xl:pb-14">
+    <div
+      class="sm:w-[600px] md:w-[650px] lg:w-[850px] xl:w-[1200px] md:flex md:justify-between"
+    >
+      <div
+        class="sm:flex sm:flex-col-reverse md:flex md:flex-row xl:flex md:gap-[90px] xl:gap-[100px]"
+      >
+        <div class="sm:hidden md:block">
           <figure>
             <img
               src="../assets/noice-logo-full.svg"
               alt="full logo of noice.id"
             />
           </figure>
-          <div class="xl:mt-7 flex gap-4">
+          <div class="md:mt-10 xl:mt-7 flex gap-4">
             <a
               href="https://play.google.com/store/apps/details?id=noice.app"
               target="_blank"
@@ -17,7 +21,7 @@
             >
               <img
                 src="../assets/google-play-icon.svg"
-                class="h-8"
+                class="md:h-6 h-8"
                 alt="google play icon"
               />
             </a>
@@ -28,14 +32,14 @@
             >
               <img
                 src="../assets/appstore-icon.svg"
-                class="h-8"
+                class="md:h-6 h-8"
                 alt="appstore icon"
               />
             </a>
           </div>
-          <p class="xl:mt-16">© Noice 2022</p>
+          <p class="md:mt-16 xl:mt-16">© Noice 2022</p>
         </div>
-        <ul class="text-base leading-[35px]">
+        <ul class="text-base md:leading-[50px] xl:leading-[35px]">
           <li class="font-bold">Aturan yang berlaku</li>
           <li>Ketentuan Konten</li>
           <li>Syarat & Ketentuan</li>
@@ -55,7 +59,7 @@
           </a>
         </div>
       </div>
-      <div class="sm:mt-20">
+      <div class="sm:mt-20 md:hidden">
         <figure>
           <img
             src="../assets/noice-logo-full.svg"
