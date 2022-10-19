@@ -1,15 +1,15 @@
 <template>
-  <div id="home" class="relative">
+  <main id="home" class="relative sm:h-[3180px] md:h-[4300px] xl:h-[3640px]">
     <Banner />
     <WhatIsNoiceMaker />
     <WhyJoinUse />
     <img
       src="../assets/ornament-slide.svg"
-      class="absolute z-[99] sm:left-32 sm:bottom-[370px] md:left-60 xl:left-40 xl:bottom-[250px]"
+      class="absolute z-[99] sm:left-32 sm:bottom-[830px] md:left-60 xl:left-40 xl:bottom-[1000px]"
       alt=""
     />
     <Faqs class="absolute sm:top-[2600px] md:top-[3180px] xl:top-[2800px]" />
-  </div>
+  </main>
 </template>
 
 <script setup>

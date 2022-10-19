@@ -14,7 +14,7 @@
           />
           <button
             id="mask"
-            class="absolute inset-0 grid place-content-center place-items-center xl:w-full xl:h-full"
+            class="absolute inset-0 grid place-content-center place-items-center md:grid md:place-content-center md:place-items-center xl:w-full xl:h-full"
             aria-label="this button for play video from youtube"
             @click="isClicked = !isClicked"
           >

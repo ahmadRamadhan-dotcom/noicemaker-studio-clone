@@ -1,6 +1,6 @@
 <template>
-  <div
-    class="w-full sticky top-0 z-[999] flex justify-center sm:flex sm:justify-center bg-[#101010]"
+  <header
+    class="w-[100%] sticky top-0 z-[999] flex justify-center sm:flex sm:justify-center bg-[#101010]"
   >
     <div
       :class="
@@ -26,5 +26,5 @@
         Masuk
       </router-link>
     </div>
-  </div>
+  </header>
 </template>
