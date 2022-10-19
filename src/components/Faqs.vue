@@ -1,5 +1,5 @@
 <template>
-  <div class="faqs flex justify-center sm:py-16 xl:pb-20 w-full">
+  <div class="faqs flex justify-center pt-10 pb-12 sm:py-16 xl:pb-20 w-full">
     <div
       class="grid md:w-[750px] place-content-center place-items-center xl:mt-20"
     >
@@ -7,15 +7,16 @@
         >Seputar Noicemaker Studio</span
       >
       <h4
-        class="sm:text-2xl md:text-[48px] md:w-11/12 md:text-center md:leading-[70px] font-bold"
+        class="text-2xl w-10/12 text-center sm:w-full sm:text-2xl md:text-[48px] md:w-11/12 md:text-center md:leading-[70px] font-bold"
       >
         Pertanyaan yang S<span>erin</span>g Muncul
       </h4>
       <Accordion class="md:mt-10" />
-      <span class="xl:text-base xl:text-left md:mt-10 w-full font-bold"
+      <span
+        class="xl:text-base xl:text-left mt-10 sm:mt-0 md:mt-10 w-11/12 sm:w-full font-bold"
         >Ada pertanyaan lain ?</span
       >
-      <span class="w-full xl:text-base font-normal"
+      <span class="w-11/12 sm:w-full xl:text-base font-normal"
         >Kirim email ke <span class="text-[#fad810]">creators@noice.id</span>
       </span>
     </div>
