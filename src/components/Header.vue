@@ -5,10 +5,10 @@
     <div
       :class="
         $route.path === '/login'
-          ? 'sm:justify-center xl:grid xl:place-content-center xl:place-items-center'
-          : 'sm:justify-between'
+          ? ' justify-center sm:justify-center xl:grid xl:place-content-center xl:place-items-center'
+          : 'justify-between sm:justify-between'
       "
-      class="w-11/12 sm:w-[93%] md:w-4/5 lg:w-10/12 xl:w-[88%] 2xl:w-[1300px] flex justify-between sm:flex py-3 sm:py-3 xl:py-3"
+      class="w-11/12 sm:w-[93%] md:w-4/5 lg:w-10/12 xl:w-[88%] 2xl:w-[1300px] flex sm:flex py-3 sm:py-3 xl:py-3"
     >
       <router-link to="/">
         <img
